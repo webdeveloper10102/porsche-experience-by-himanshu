@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --porsche-red: #D11D27;
+    --porsche-yellow: #E5A912;
+    --porsche-blue: #0D68A8;
+    --porsche-carbon: #0D0E11;
+    --porsche-titanium: #8E9297;
+  }
+
+  body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    overflow-x: hidden;
+    selection-background-color: #D11D27;
+    selection-color: #ffffff;
+  }
+}
+
+/* Minimalist precision scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #222222;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D11D27;
+}
+
+/* Precision line markers */
+.border-minimal {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.text-stroke-minimal {
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.15);
+  color: transparent;
+}
+

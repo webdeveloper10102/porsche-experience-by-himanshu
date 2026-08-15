@@ -1,0 +1,6 @@
+{
+  "name": "Porsche Experience - Driven by Dreams",
+  "description": "An immersive animated scroll automotive experience showcasing Porsche engineering, aerodynamics, electric soul, sound synthesis, and bespoke vehicle configuration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
